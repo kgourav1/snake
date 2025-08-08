@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Snake Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-layout">
+      <div class="left-panel">
+        <div class="panel-card">
+          <h1>🐍 WORD SNAKE</h1>
+          <h3 id="highScore" style="margin: 0 0 10px 10px">High Score : 0</h3>
+
+          <div class="game-stats">
+            <div class="stat-card">
+              <div class="stat-value" id="score">0</div>
+              <div class="stat-label">Score</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="words">0</div>
+              <div class="stat-label">Words</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="level">1</div>
+              <div class="stat-label">Level</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value" id="streak">0</div>
+              <div class="stat-label">Streak</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel-card current-word">
+          <h3>Current Word</h3>
+          <div class="current-letters" id="current-letters">START</div>
+        </div>
+
+        <div class="panel-card suggested-words">
+          <h3>Possible Words</h3>
+          <div class="suggestions" id="suggestions">
+            Collect letters to see suggestions!
+          </div>
+        </div>
+
+        <div class="panel-card controls">
+          <div class="controls-title">How to Play</div>
+          <div>Use Arrow Keys or WASD to move</div>
+          <div>Collect letters to form words</div>
+          <div>Complete 5 words to level up!</div>
+        </div>
+      </div>
+
+      <div class="right-panel">
+        <div class="canvas-container">
+          <canvas id="gameCanvas" width="600" height="600"></canvas>
+        </div>
+      </div>
+    </div>
+
+    <div class="word-completed" id="wordCompleted"></div>
+    <div class="level-up" id="levelUp"></div>
+
+    <div class="game-over" id="gameOver">
+      <h2 style="font-size: 2.5rem; margin-bottom: 20px">Game Over!</h2>
+      <p style="font-size: 1.3rem; margin: 10px 0">
+        Final Score: <span id="finalScore"></span>
+      </p>
+      <p style="font-size: 1.3rem; margin: 10px 0">
+        Words Completed: <span id="finalWords"></span>
+      </p>
+      <p style="font-size: 1.3rem; margin: 10px 0">
+        Best Streak: <span id="finalStreak"></span>
+      </p>
+      <button class="restart-btn" onclick="restartGame()">🔄 Play Again</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
