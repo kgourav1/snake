@@ -58,7 +58,8 @@ body::before {
   padding: 20px;
 }
 
-.left-panel {
+.left-panel,
+.last-panel {
   flex: 1;
   max-width: 400px;
   display: flex;
@@ -185,6 +186,10 @@ h1 {
   font-weight: 600;
   margin-bottom: 10px;
   color: #ffd700;
+}
+
+.hide {
+  display: none;
 }
 
 .canvas-container {

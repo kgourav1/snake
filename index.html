@@ -11,12 +11,17 @@
       <div class="left-panel">
         <div class="panel-card">
           <h1>🐍 WORD SNAKE</h1>
-          <h3 id="highScore" style="margin: 0 0 10px 10px">High Score : 0</h3>
+          <!-- <h3 id="highScore" style="margin: 0 0 10px 10px">High Score : 0</h3> -->
 
           <div class="game-stats">
             <div class="stat-card">
               <div class="stat-value" id="score">0</div>
               <div class="stat-label">Score</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-value hide" id="streak">0</div>
+              <div class="stat-value" id="highScore">0</div>
+              <div class="stat-label">Highest Score</div>
             </div>
             <div class="stat-card">
               <div class="stat-value" id="words">0</div>
@@ -26,22 +31,6 @@
               <div class="stat-value" id="level">1</div>
               <div class="stat-label">Level</div>
             </div>
-            <div class="stat-card">
-              <div class="stat-value" id="streak">0</div>
-              <div class="stat-label">Streak</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="panel-card current-word">
-          <h3>Current Word</h3>
-          <div class="current-letters" id="current-letters">START</div>
-        </div>
-
-        <div class="panel-card suggested-words">
-          <h3>Possible Words</h3>
-          <div class="suggestions" id="suggestions">
-            Collect letters to see suggestions!
           </div>
         </div>
 
@@ -56,6 +45,19 @@
       <div class="right-panel">
         <div class="canvas-container">
           <canvas id="gameCanvas" width="600" height="600"></canvas>
+        </div>
+      </div>
+      <div class="last-panel">
+        <div class="panel-card current-word">
+          <h3>Current Word</h3>
+          <div class="current-letters" id="current-letters">START</div>
+        </div>
+
+        <div class="panel-card suggested-words">
+          <h3>Possible Words</h3>
+          <div class="suggestions" id="suggestions">
+            Collect letters to see suggestions!
+          </div>
         </div>
       </div>
     </div>

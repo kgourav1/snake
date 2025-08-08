@@ -503,12 +503,10 @@ function updateScore() {
 
   if (score > currentHighScore) {
     localStorage.setItem(HIGH_SCORE_KEY, score);
-    document.getElementById("highScore").textContent =
-      "🎉High Score : " + score;
+    document.getElementById("highScore").textContent = "🎉" + score;
     playCheerSound();
   } else {
-    document.getElementById("highScore").textContent =
-      "High Score: " + currentHighScore;
+    document.getElementById("highScore").textContent = currentHighScore;
   }
 }
 
