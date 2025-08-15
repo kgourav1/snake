@@ -1,0 +1,20 @@
+{
+  "1": "Mission 1 : Collect any 5 consecutive alphabets (e.g., A B C D E)",
+  "2": "Mission 2 : Collect 5 different vowels (A, E, I, O, U)",
+  "3": "Mission 3 : Collect 5 consonants in alphabetical order",
+  "4": "Mission 4 : Form any 5 two-letter meaningful words (e.g., IS, AM, TO)",
+  "5": "Mission 5 : Form any 5 three-letter meaningful words (e.g., CAT, SUN, MAP)",
+  "6": "Mission 6 : Form any 5 four-letter meaningful words (e.g., BOOK, GAME, TREE)",
+  "7": "Mission 7 : Form any 5 five-letter meaningful words (e.g., APPLE, TABLE, LIGHT)",
+  "8": "Mission 8 : Form any palindrome word (e.g., LEVEL, MADAM)",
+  "9": "Mission 9 : Form a word starting and ending with the same letter",
+  "10": "Mission 10 : Form a word where all letters are consecutive alphabets",
+  "11": "Mission 11 : Form a word containing both Q and U",
+  "12": "Mission 12 : Form 5 different words starting with the same letter",
+  "13": "Mission 13 : Form 5 different words ending with the same letter",
+  "14": "Mission 14 : Form 3 words that rhyme (last 2 letters same)",
+  "15": "Mission 15 : Form a word containing all vowels (e.g., EDUCATION)",
+  "16": "Mission 16 : Form a word with double letters (e.g., LETTER, APPLE)",
+  "17": "Mission 17 : Form a word without using vowels",
+  "18": "Mission 18 : Form a word containing the letter Z"
+}
